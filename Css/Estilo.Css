@@ -1,6 +1,31 @@
+#fondo{
+    background-color: rgba(73, 71, 71, 0.021); /*Agregar color al fondo*/
+}
+
+#fondo2{
+    background-color: rgba(73, 71, 71, 0.021); /*Agregar color al fondo*/
+}
+
+#fondo3{
+    background-color: rgba(73, 71, 71, 0.021); /*Agregar color al fondo*/
+}
+
+#fondo4{
+    background-color: rgba(73, 71, 71, 0.021); /*Agregar color al fondo*/
+}
+
+
 h1 { 
     text-align: center; /*En este Apartado se define que el h1 se centrara en medio de la pagina*/
     color: #1409bb; /*En este Apartado definimos el color del texto*/
+}
+
+.bordetitulo{
+    /*border: 3px solid;*/
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 2px;
 }
 
 textarea {
