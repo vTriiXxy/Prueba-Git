@@ -1,0 +1,47 @@
+h1 { 
+    text-align: center; /*En este Apartado se define que el h1 se centrara en medio de la pagina*/
+    color: #1409bb; /*En este Apartado definimos el color del texto*/
+}
+
+textarea {
+    display: block; /* Convierte el textarea en un bloque */
+    margin: 20px auto; /* Centra horizontalmente y agrega espacio arriba y abajo */
+    width: 80%; /* Ancho del textarea */
+    max-width: 500px; /* Ancho máximo */
+    height: 100px; /* Altura del textarea */
+    padding: 10px; /* Espacio interno */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo de la página */
+    margin: 0;
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
+
+/* -----------------------------------------------Estilo para la tabla--------------------------------------------------------------------------*/
+
+.tabla-productos {
+    margin: 20px auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Eliminar espacios entre bordes */
+    width: 50%; /* Ancho de la tabla */
+    text-align: center; /* Centrar el texto */
+    font-family: Arial, sans-serif;
+}
+
+.tabla-productos th, .tabla-productos td {
+    border: 1px solid #ccc; /* Bordes de las celdas */
+    padding: 10px; /* Espaciado interno */
+}
+
+.tabla-productos th {
+    background-color: #f2f2f2; /* Fondo del encabezado */
+    color: #333; /* Color del texto del encabezado */
+}
+
+.tabla-productos td {
+    background-color: #fff; /* Fondo de las celdas */
+    color: #555; /* Color del texto */
+}
